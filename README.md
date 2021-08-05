@@ -6,12 +6,19 @@ Cat vocalizations are their basic means of communication. They are particularly 
 
 In this study, we try to use MFCC (Mel-Frequency Cepstrum) to extract the feature of cat vocalizations. Then we use **Meow-Net** to train the model for cat vocalizations classificatioin.
 
-The data comes from the Cat Vocalizations Dataset [CatMeows](https://zenodo.org/record/4008297), which contains the sounds of Maine Coon and European Shorthair breeds emitted in three different contexts, namely waiting for food, isolation in unfamiliar environment, and brushing.
-
 The obtained results are excellent, rendering the proposed framework particularly useful towards a better understanding of the acoustic communication between humans and cats.
 
 <img src="meow.jpg" width="100%" img style="float: left;">
 
+## Dataset
+The data comes from the Cat Vocalizations Dataset [CatMeows](https://zenodo.org/record/4008297), which contains the sounds of Maine Coon and European Shorthair breeds emitted in three different contexts, namely waiting for food, isolation in unfamiliar environment, and brushing. Naming conventions follow the pattern C_NNNNN_BB_SS_OOOOO_RXX, which has to be exploded as follows:
+
+* NNNNN = cat’s unique ID;
+* BB = breed (values: MC = Maine Coon; EU: European Shorthair);
+* SS = sex (values: FI = female, intact; FN: female, neutered; MI: male, intact; MN: male, neutered);
+* OOOOO = cat owner’s unique ID;
+* R = recording session (values: 1, 2 or 3)
+* XX = vocalization counter (values: 01..99)
 
 ## Code
 
