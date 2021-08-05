@@ -6,7 +6,7 @@ Cat vocalizations are their basic means of communication. They are particularly 
 
 In this study, we try to use MFCC (Mel-Frequency Cepstrum) to extract the feature of cat vocalizations. Then we use **Meow-Net** to train the model for cat vocalizations classificatioin.
 
-The data comes from the Cat Vocalizations Dataset [CatMeows](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.shape.html), which contains the sounds of Maine Coon and European Shorthair breeds emitted in three different contexts, namely waiting for food, isolation in unfamiliar environment, and brushing.
+The data comes from the Cat Vocalizations Dataset [CatMeows](https://zenodo.org/record/4008297), which contains the sounds of Maine Coon and European Shorthair breeds emitted in three different contexts, namely waiting for food, isolation in unfamiliar environment, and brushing.
 
 The obtained results are excellent, rendering the proposed framework particularly useful towards a better understanding of the acoustic communication between humans and cats.
 
@@ -42,4 +42,4 @@ python TestRun.py
 
 ```CircleLoss.py``` is used to estimate the loss rate during model training with two elemental deep feature learning approaches: class-level labels and pair-wise labels.
 
-```Meow_SPA.ipynb``` is in the form of a Jupyter Notebook as a simple display with [CatMeows](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.shape.html) as the training object.
+```Meow_SPA.ipynb``` is in the form of a Jupyter Notebook as a simple display with [CatMeows](https://zenodo.org/record/4008297) as the training object.
