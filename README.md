@@ -8,7 +8,7 @@ In this study, we try to use MFCC (Mel-Frequency Cepstrum) to extract the featur
 
 The obtained results are excellent, rendering the proposed framework particularly useful towards a better understanding of the acoustic communication between humans and cats.
 
-<img src="meow.jpg" width="100%" img style="float: left;">
+<img src="meow.jpg" alt="Meow!!" width="100%" img style="float: left;">
 
 ## Dataset
 In the folder " dataset ", there are 3 samples of cat vocalizations. Please download the rest of the data [here](https://zenodo.org/record/4008297). The data comes from the Cat Vocalizations Dataset [CatMeows](https://zenodo.org/record/4008297), which contains the sounds of Maine Coon and European Shorthair breeds emitted in three different contexts, namely waiting for food, isolation in unfamiliar environment, and brushing. Naming conventions follow the pattern C_NNNNN_BB_SS_OOOOO_RXX, which has to be exploded as follows:
